@@ -9,21 +9,25 @@ Projeto pessoal de gerenciamento de endereços (CRUD).
 
 ## Instruções
 
-### execute api
-Abre a pasta api/ e digite:
+### Execute api
+Abra a pasta api/ e digite:
 
-`yarn`
-`yarn start`
+```sh
+yarn
+yarn start
+```
 
-### execute o projeto
+### Execute o projeto
 No raíz do repositório, execute:
 
-`yarn`
-`yarn start`
+```sh
+yarn
+yarn start
+```
 
 Abra [http://localhost:3000](http://localhost:3000) no navegador
 
-### projeto
+### Projeto
 
 <h1 align='center'>
   <img alt='via cep project' title='projeto' src='./assets/via_cep.png' />
