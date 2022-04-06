@@ -1,0 +1,28 @@
+.loader-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  display: block;
+}
+
+.spinner {
+  left: 45%;
+  top: 45%;
+  position: relative;
+  border: 8px solid rgba(0, 0, 0, 0.1);
+  border-left-color: #FF7373;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 1s linear infinite;
+  display: block;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
